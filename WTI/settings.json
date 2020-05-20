@@ -1,0 +1,42 @@
+{
+"python.pythonPath": "C:\\AnacondaEnvs\\envs\\py37\\python.exe",
+
+
+
+
+    "files.watcherExclude":{
+    "**/py37/**":true
+    },
+
+
+"files.autoSave": "afterDelay",
+"files.autoSaveDelay": 1000,
+"python.linting.lintOnSave": true,
+"python.linting.pylintEnabled": false,
+"python.linting.flake8Enabled": true,
+
+"python.linting.flake8Args":[
+    "--ignore=W293, W504",
+    "--max-line-length=88",
+    "--max-complexity=20"
+],
+
+"python.formatting.provider": "black",
+
+/* "python.formatting.provider": "autopep8",
+"python.formatting.autopep8Args": [
+    "--aggressive", "--aggressive",
+], */
+"autoDocstring.docstringFormat": "google",
+
+"files.trimTrailingWhitespace": true,
+"files.trimFinalNewlines": true,
+
+"typescript.tsc.autoDetect": "off",
+"grunt.autoDetect": "off",
+"jake.autoDetect": "off",
+"npm.autoDetect": "off",
+"gulp.autoDetect": "off",
+"python.jediEnabled": false
+
+}
